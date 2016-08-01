@@ -9,12 +9,12 @@ Framework documentation can be found [here](http://youtube.github.io/spfjs/docum
 
 ### Installation
 ```
-    npm install spf-express
+npm install spf-express
 ```
 
 To run tests:
 ```
-    npm test
+npm test
 ```
 
 ### Usage
