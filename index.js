@@ -4,7 +4,13 @@ module.exports = function(data) {
         var identifierMatch = false
         var identifiers = ["navigate", "prefetch", "navigate-back"]
 
-        if (data.identifiers && data.identifiers.length > 0) identifiers.concat(data.identifiers)
+        if (data.identifiers && data.identifiers.length > 0) {
+            if (data.override) {
+                identifiers = data.identifiers
+            } else {
+                identifiers.concat(data.identifiers)
+            }
+        }
         for (var i = 0; i < identifiers.length; i++) {
             if (identifiers[i] == spfQuery) {
                 identifierMatch = true
