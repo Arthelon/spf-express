@@ -1,6 +1,6 @@
 {
   "name": "spf-express",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Express middleware that handles SPF requests",
   "main": "index.js",
   "scripts": {
@@ -11,16 +11,20 @@
     "url": "git+https://github.com/Arthelon/spf-express.git"
   },
   "author": "Daniel Hsing",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Arthelon/spf-express/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/Arthelon/spf-express/issues"
   },
   "homepage": "https://github.com/Arthelon/spf-express#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.0"
-  },
-  "dependencies": {
+    "mocha": "^3.0.0",
     "sinon": "^1.17.5"
-  }
+  },
+  "dependencies": {}
 }
