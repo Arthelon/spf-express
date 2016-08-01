@@ -1,16 +1,21 @@
 # spf-express
-Express middleware that handles [SPF](http://youtube.github.io/spfjs/) requests
+Express middleware for youtube's [SPF](http://youtube.github.io/spfjs/) framework. 
+
+Framework documentation can be found [here](http://youtube.github.io/spfjs/documentation)
 
 ### Features
 - Intercept requests with custom SPF query identifiers
 - Attach SPF response objects or custom express handler to desired path
 
 ### Installation
+```
     npm install spf-express
+```
 
 To run tests:
-
+```
     npm test
+```
 
 ### Usage
 ```javascript
