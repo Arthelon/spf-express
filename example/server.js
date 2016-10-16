@@ -33,7 +33,7 @@ app.use(spfExpress({
             "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
         }
     }
-}))
+}));
 
 app.get("/", function(req, res) {
     res.render("layouts/index")
