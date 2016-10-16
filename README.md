@@ -70,3 +70,11 @@ app.use(spf_express({
     override: true   //"my_identifier" is now the only valid SPF request identifier!
 }))
 ```
+
+#### Example project
+```
+$ git clone https://github.com/Arthelon/spf-express.git
+$ cd spf-express
+$ npm install --dev
+$ npm run start-example
+```
