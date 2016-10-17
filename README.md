@@ -1,5 +1,5 @@
 
-# spf-express [![npm](https://img.shields.io/badge/npm-v0.1.0-blue.svg)](https://www.npmjs.com/package/spf-express)
+# spf-express [![npm](https://img.shields.io/badge/npm-v0.1.1-blue.svg)](https://www.npmjs.com/package/spf-express)
 Express middleware for youtube's [SPF](http://youtube.github.io/spfjs/) framework.
 
 Framework documentation can be found [here](http://youtube.github.io/spfjs/documentation)
