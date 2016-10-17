@@ -9,8 +9,8 @@ const port = process.env.PORT || 3000;
 
 app.set('port', port);
 app.set('view engine', 'ejs');
-app.set('/views', `${__dirname}/views`);
-app.use('/static', express.static(`${__dirname}/dist`));
+app.set('views', `${__dirname}/views`);
+app.use('static', express.static(`${__dirname}/dist`));
 app.use(express.static(__dirname));
 app.use(spfExpress({
     paths: {
