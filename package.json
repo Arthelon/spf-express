@@ -4,7 +4,7 @@
   "description": "Express middleware that handles SPF requests",
   "main": "index.js",
   "scripts": {
-    "start-example": "node example/server.js",
+    "start-example": "node ./example/server",
     "test": "make test"
   },
   "repository": {
