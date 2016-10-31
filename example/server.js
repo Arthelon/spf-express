@@ -31,6 +31,10 @@ app.use(spfExpress({
             },
             foot: "<script src=\"https://code.jquery.com/jquery-2.2.4.min.js\"></script>"+ //JS Scripts
             "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
+        },
+        "/main/:id/": function(req, res, next) {
+            console.log(req.params.id)
+            res.sendStatus(200)
         }
     }
 }));
