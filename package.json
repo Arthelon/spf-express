@@ -1,6 +1,6 @@
 {
   "name": "spf-express",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Express middleware that handles SPF requests",
   "main": "index.js",
   "scripts": {
