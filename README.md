@@ -26,7 +26,7 @@ spf_express(opts)   //returns an express middleware function
 #### Options:
 - paths: Object
     - [path: String]: Object | Function
-    - Key value can either be a SPF response object or an express middleware function
+    - Key value can either be a SPF response object or an express middleware function (supports URL params)
     - Will return the corresponding response object or forward request to middleware when a SPF request is sent to a defined path.
 - identifiers: [String]
     - default: ["navigate", "prefetch", "navigate-back"]
